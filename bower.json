@@ -1,0 +1,21 @@
+{
+  "name": "editable-item",
+  "version": "0.0.0",
+  "authors": [
+    "angelarrr <kwon.angela@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.3"
+  }
+}
