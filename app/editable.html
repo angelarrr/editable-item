@@ -1,0 +1,10 @@
+<div class="edit-content" 
+	ng-init="editMode=false" 
+	ng-transclude 
+	contenteditable="{{editMode}}"
+	ng-class="{edit: editMode}"
+	>
+</div>
+
+<button ng-click="editMode=true" ng-show="!editMode">Edit</button>
+<button ng-click="editMode=false" ng-show="editMode">Save</button>
